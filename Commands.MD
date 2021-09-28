@@ -63,10 +63,22 @@
  git commit -m '[descripcion]'
 `
 
+> Añadir los los cambios y Guardarlos con un commmit al mismo tiempo (Solo funciona con documentos que esten en seguimiento pot git)
+
+`
+ git commit am  ['commit']
+`
+
 > Regresa el proyecto al ultimo commit hecho 
 
 `
  git checkout -- . 
+`
+
+> Ver commit realizados
+
+`
+ git log
 `
 
 ## Manejo de Ramas
