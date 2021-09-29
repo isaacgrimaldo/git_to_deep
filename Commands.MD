@@ -1,6 +1,6 @@
 # GIT Commands   
 
-## Comandos de configuración  
+# Comandos de configuración  
 
 > Te muestras las configuraciones globales de git y te permite cambiarlas 
 
@@ -40,7 +40,7 @@
 `
 
 
-## Comandos Generales de Git
+# Comandos Generales de Git
 
 > Crean un nuevo repositorio 
 
@@ -72,7 +72,26 @@
  git log
 `
 
-## Manejo de Ramas
+> Muestra las cambios realizados en un documento
+
+`
+ git dif (general) git diff [nameFile] (específica)
+`
+
+> Modifica el mensaje puesto en el ultimo commit para corregir algun error al haber lo hecho
+
+`
+git commit --amend -m ['newCommit']
+`
+
+> Modifica el anterior commit 
+
+`
+ git reset --soft  HEAD^
+`
+
+
+# Manejo de Ramas
 
 > Ver todas las ramas existentes 
 
@@ -87,7 +106,7 @@
 `
 
 
-## Manejo del staged 
+# Manejo del staged 
 
 > Muestra el estado de los cambio del repositorio
 
