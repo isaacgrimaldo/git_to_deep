@@ -29,6 +29,15 @@
   git config --global core.safecrlf true
 `
 
+> Creacion de alias para agilizar el trabajo
+
+`
+ git config --global alias.[aliasName] ['script']
+`
+> uso  :
+`
+  git [aliasName]
+`
 
 
 ## Comandos Generales de Git
@@ -38,6 +47,47 @@
 `
    git init
 `
+
+> Guarda los cambio en un commit con algun pequeños mensaje para decir lo que cambio
+
+`
+ git commit -m '[descripcion]'
+`
+
+> Añadir los los cambios y Guardarlos con un commmit al mismo tiempo (Solo funciona con documentos que esten en seguimiento pot git)
+
+`
+ git commit -am  ['commit']
+`
+
+> Regresa el proyecto al ultimo commit hecho 
+
+`
+ git checkout -- . 
+`
+
+> Ver commits realizados
+
+`
+ git log
+`
+
+## Manejo de Ramas
+
+> Ver todas las ramas existentes 
+
+`
+  git branch
+`
+
+> Cambiar el nombre de una rama 
+
+`
+ git branch  -m [nameBranch] [newNameBranch]
+`
+
+
+## Manejo del staged 
 
 > Muestra el estado de los cambio del repositorio
 
@@ -57,40 +107,9 @@
  git reset [nameFile]  o git reset .
 `
 
-> Guarda los cambio en un commit con algun pequeños mensaje para decir lo que cambio
+> para especifícar los tipos de docuemtos quieres agregar
 
 `
- git commit -m '[descripcion]'
+  git add  [path +  * extencion(.js .html .css ...etc) ]  
 `
 
-> Añadir los los cambios y Guardarlos con un commmit al mismo tiempo (Solo funciona con documentos que esten en seguimiento pot git)
-
-`
- git commit am  ['commit']
-`
-
-> Regresa el proyecto al ultimo commit hecho 
-
-`
- git checkout -- . 
-`
-
-> Ver commit realizados
-
-`
- git log
-`
-
-## Manejo de Ramas
-
-> Ver todas las ramas existentes 
-
-`
-  git branch
-`
-
-> Cambiar el el nombre de una rama 
-
-`
- git branch  -m [nameBranch] [newNameBranch]
-`
