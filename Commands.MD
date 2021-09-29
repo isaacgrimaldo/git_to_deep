@@ -155,3 +155,27 @@ git commit --amend -m ['newCommit']
 `
   git restore  .  o  git restore [fileName] 
 `
+
+<hr>
+
+## Manejo de archivos
+
+<br>
+
+>  Cambia el nombre del documento
+
+`
+   git mv [fileName]  [newFileName]
+ `
+
+>  Borra docuentos sin contenido 
+
+`
+  git rm [fileName]
+`
+
+> Borra docuentos unque tengan contenido
+
+`
+ git rm -rf [filename]
+`
