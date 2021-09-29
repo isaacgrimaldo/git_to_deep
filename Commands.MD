@@ -84,12 +84,30 @@
 git commit --amend -m ['newCommit']
 `
 
-> Modifica el anterior commit 
+> Muestra todo los log desde los inicio del tiempo (permite optner los [commitID])
+
+`
+ git  reflog
+`
+
+
+> Modifica el anterior commit  (sin borrar los cambios)
 
 `
  git reset --soft  HEAD^
 `
 
+> Moifica puede ir a cualquier commit y segir desde ese punto (borra el steged pero no lo cambios ralizados)
+
+`
+  git reset --mixed  [commitID] o HEAD^ (para ir al anterior commit)
+`
+
+> Viaja a un commit en especifico y pudes trabajar desde ese punto ( Borra todo los cambios que no estan guardados en ese commit)
+
+`
+ git reset --hard [commitID] o HEAD^ (para ir al anterior commit)
+`
 
 # Manejo de Ramas
 
