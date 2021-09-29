@@ -138,10 +138,10 @@ git commit --amend -m ['newCommit']
   git add .   &&   git add [fileName] 
 `
  
-> Borra algun cambio hecho 
+> Borra del staged todos los cambios hechos
 
 ` 
- git reset [nameFile]  o git reset .
+ git  reset .
 `
 
 > para especifícar los tipos de docuemtos quieres agregar
@@ -150,3 +150,8 @@ git commit --amend -m ['newCommit']
   git add  [path +  * extencion(.js .html .css ...etc) ]  
 `
 
+> Quita del stoged  los cambios hechos 
+
+`
+  git restore  .  o  git restore [fileName] 
+`
