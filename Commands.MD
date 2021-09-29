@@ -111,10 +111,27 @@ git commit --amend -m ['newCommit']
 
 # Manejo de Ramas
 
-> Ver todas las ramas existentes 
+> Ver todas las ramas existentes y ver en la que te encuentras
 
 `
   git branch
+`
+
+> Crear nueva ramaa
+
+`
+  git branch  [newNameRama]
+`
+> cambiar de rama 
+
+`
+  git checkout [nameRama]
+`
+
+> combinar rama 
+
+`
+  git merge [mixRama]
 `
 
 > Cambiar el nombre de una rama 
@@ -122,6 +139,7 @@ git commit --amend -m ['newCommit']
 `
  git branch  -m [nameBranch] [newNameBranch]
 `
+
 
 
 # Manejo del staged 
