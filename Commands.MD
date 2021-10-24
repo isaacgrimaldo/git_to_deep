@@ -231,3 +231,50 @@ git commit --amend -m ['newCommit']
 `
   git show [tagName]
 `
+
+<hr>
+
+# Manejo del stash  
+
+> crea un stash en le momento actual
+
+`
+  git stash 
+`
+
+> muestra todos lo stash
+
+`
+  git stash list 
+`
+
+> agrega nuevamente los cambios que estan guradados en el ultimo  stash 
+
+`
+ git stash pop
+`
+
+> Borra un stash en especifico 
+
+`
+ git stash drop stahs@{numberStash}
+`
+
+
+> Guardad el stash con un mensaje en especifico 
+
+`
+ git stash save ['message']
+`
+
+> Mostrar informacion de los stash
+
+`
+ git stash show [stahs@{numberStash}]
+`
+
+> Mostrar las informacion  mas detalla de todos los stash 
+
+`
+ git stash list --stat
+`
