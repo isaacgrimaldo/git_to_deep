@@ -64,4 +64,10 @@ git reset --soft  HEAD^[CommitNumber] (1, 2, 3 ...etc)
  ### los cambios  y ejecutar el comando: `git merge [mixRama]`  para traer los cambio de la otra rama   
 
 
+<hr>
+
+## Notas sobre  los tags
+
+ - los tags sirver puntos especificos de nuestro programas y poder identificarlos rapidamente 
+ - se puden crear en forma semantica de verciones v[versionActual].[funcionalidadAñadida].[bugresuelto] 
 
