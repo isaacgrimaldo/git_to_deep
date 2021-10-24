@@ -176,7 +176,7 @@ git commit --amend -m ['newCommit']
 
 <hr>
 
-## Manejo de archivos
+# Manejo de archivos
 
 <br>
 
@@ -196,4 +196,38 @@ git commit --amend -m ['newCommit']
 
 `
  git rm -rf [filename]
+`
+
+<hr>
+
+# Manejo de tags
+ 
+> crear un tag de modo de versiones semantica  o solo por solo nombre de indetificación 
+
+`
+  git tag [nameTag]
+`
+
+> borrar un tag 
+
+`
+  git tag  -d [nameTag]
+`
+
+> crear un tag con una anotation en estado actual donde te encuentras en la aplicación 
+
+`
+  git tag  -a [nameTag] -m ['message']
+`
+
+> crear un tag con una anotation en un commit especifíco de la aplicación 
+
+`
+  git tag  -a [nameTag]  [hashCommit] -m ['message']
+`
+
+> te muestra toda la información detallada de un tag en especifíco
+
+`
+  git show [tagName]
 `
