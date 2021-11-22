@@ -66,6 +66,12 @@
  git checkout -- . 
 `
 
+> Regresar un archivo de al estdo del ultimo commit 
+
+`
+  git checkout -- [name]
+`
+
 > Ver commits realizados
 
 `
@@ -278,3 +284,15 @@ git commit --amend -m ['newCommit']
 `
  git stash list --stat
 `
+
+<hr>
+
+# Rebase
+
+> hacer un rebase normal 
+
+git rebase [rama]
+
+> hacer rebase interactivo 
+
+git rebase -i HEAD~[commits number]
